@@ -1,0 +1,46 @@
+.homeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 400px;
+  flex-direction: column;
+}
+
+.homeContainer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tituloPrincipal {
+  color: #fff;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.info {
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 20px;
+  font-size: 25px;
+  width: 390px;
+}
+
+.botao_comecar {
+  margin-top: 20px;
+  width: 390px;
+  height: 50px;
+  background-color: #f9e141;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.botao_comecar:hover {
+  filter: brightness(0.6);
+}
